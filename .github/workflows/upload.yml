@@ -20,8 +20,8 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
-          id:  "test/sb"
-          title: "DB"
+          id:  "justsahil/sb"
+          title: "SB"
           # 3. Update path to look inside the cloned folder
           files: "hf_downloads/*.csv" 
-          is_public: true
+          is_public: false
